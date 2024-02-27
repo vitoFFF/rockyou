@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<nav>
+    <ul>
+      <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+      <li><a href="#login">Login</a></li>
+    </ul>
+  </nav>
+  <!-- Rest of the HTML remains unchanged -->
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalistic Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 style="color: #542a81;font-family: Arial, sans-serif;">Rockyou ???</h1>
+    <br>
+    <form>
+      <select id="fileSelect">
+        <option value="wparockyou.txt">wparockyou</option>
+        <option value="rockyou.txt">Rockyou</option>
+        <option value="Johnpassword.txt">Johnpassword</option>
+        <option value="american-english.txt">American English</option>
+        <!-- Add more options for additional files -->
+      </select>
+      <input type="text" id="searchTerm" placeholder="Enter your Password">
+      <label for="exactMatch">Exact Match</label>
+      <input type="checkbox" id="exactMatch">
+      <button type="submit">Submit</button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <div class="info-panel">
+     
+    </div>
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
